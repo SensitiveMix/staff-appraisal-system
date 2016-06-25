@@ -1,0 +1,161 @@
+﻿/*Month Link*/
+.li_Month:link{
+    color:blue;
+}
+.li_Month:visited{
+    color:blue;
+}
+.li_Month:hover{
+    color:gray;
+}
+.li_Month:active {
+    color: purple;
+}
+
+/*Year Link*/
+.li_Year:link{
+    color:blue;
+}
+.li_Year:visited{
+    color:blue;
+}
+.li_Year:hover{
+    color:grey;
+}
+.li_Year:active{
+    color:purple;
+}
+
+/*Meeting Link*/
+.td_meeting:link{
+    color:blue;
+}
+.td_meeting:visited{
+    color:blue;
+}
+.td_meeting:hover{
+    color:gray;
+}
+.td_meeting:active{
+    color:purple;
+}
+
+
+/*Contribution Link*/
+.td_contribution:link{
+    color:blue;
+}
+.td_contribution:visited{
+    color:blue;
+}
+.td_contribution:hover{
+    color:grey;
+}
+.td_contribution:active{
+    color:purple;
+}
+
+
+.table_style{
+    width:80%;
+    height:320px;
+    /*border:1px solid grey;*/
+    /*border-collapse:collapse;*/
+    text-align:center;
+    margin-left:20px;
+}
+
+/*Note*/
+.note_text{
+    margin-left:20px;
+}
+
+
+/*first row*/
+.tr_one{
+    border:1px solid grey;
+    
+}
+
+.trth_one{
+    
+    border:1px solid grey;
+    text-align:center;
+}
+
+.trth_two{
+    
+    border:1px solid grey;
+    text-align:center;
+}
+
+.trth_third{
+    
+    border:1px solid grey;
+    text-align:center;
+}
+
+
+/*secnd row*/
+.trth2_one{
+    
+    border:1px solid grey;
+}
+
+.trth2_two{
+    
+    border:1px solid grey;
+}
+
+.trth2_third{
+    
+    border:1px solid grey;
+    text-align:left;
+}
+
+
+/*third row*/
+.trth3_one{
+    border:1px solid grey;
+}
+
+.trth3_two{
+    
+    border:1px solid grey;
+}
+
+.trth3_third{
+   
+    border:1px solid grey;
+    text-align:left;
+}
+
+/*four row*/
+.trth4_one{
+    border:1px solid grey;
+}
+
+.trth4_two{
+    
+    border:1px solid grey;
+}
+
+.trth4_third{
+    
+    border:1px solid grey;
+    text-align:left;
+}
+
+/*five row*/
+.trth5_one{
+    border:1px solid grey;
+}
+
+.trth5_two{
+    border:1px solid grey;
+}
+
+.trth5_third{
+    border:1px solid grey;
+    text-align:left;
+}

@@ -1,0 +1,25 @@
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.Clients.DictionaryExtensions: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.Clients.WindowsLiveClient: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.Clients.FacebookClient: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.Clients.JsonHelper: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.Clients.InMemoryOAuthTokenManager: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.Clients.LinkedInClient: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.Clients.GoogleOpenIdClient: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.Clients.YahooOpenIdClient: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.MachineKeyUtil: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.UriHelper: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.OpenAuthAuthenticationTicketHelper: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for DotNetOpenAuth.AspNet.WebResources: type is not visible to exported or assembly(DotNetOpenAuth.AspNet.Fakes).
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate stub for ThisAssembly: type is sealed.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.Clients.DictionaryExtensions: type is not visible to exported or assembly(DotNetOpenAuth.AspNet.Fakes).
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.IAuthenticationClient: type is an interface.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.Clients.WindowsLiveClient: type is obsolete.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.Clients.IOAuthTokenManager: type is an interface.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.Clients.JsonHelper: type is not visible to exported or assembly(DotNetOpenAuth.AspNet.Fakes).
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.Clients.IOAuthWebWorker: type is an interface.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.MachineKeyUtil: type is not visible to exported or assembly(DotNetOpenAuth.AspNet.Fakes).
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.UriHelper: type is not visible to exported or assembly(DotNetOpenAuth.AspNet.Fakes).
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.IOpenAuthDataProvider: type is an interface.
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.OpenAuthAuthenticationTicketHelper: type is not visible to exported or assembly(DotNetOpenAuth.AspNet.Fakes).
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for DotNetOpenAuth.AspNet.WebResources: type is not visible to exported or assembly(DotNetOpenAuth.AspNet.Fakes).
+D:\KPISystem\KPISystem\Fakes\DotNetOpenAuth.AspNet.fakes : warning : Cannot generate shim for ThisAssembly: type is not visible to exported or assembly(DotNetOpenAuth.AspNet.Fakes).

@@ -1,0 +1,1718 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetOpenAuth.AspNet.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.AuthenticationOnlyCookieOAuthTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.#ctor(DotNetOpenAuth.AspNet.Clients.AuthenticationOnlyCookieOAuthTokenManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.Bind(DotNetOpenAuth.AspNet.Clients.IOAuthTokenManager)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.Constructor">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.AuthenticationOnlyCookieOAuthTokenManager()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.ConstructorHttpContextBase">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.AuthenticationOnlyCookieOAuthTokenManager(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.ContextGet">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.get_Context()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.DecodeAndUnprotectTokenStringString">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.DecodeAndUnprotectToken(String token, String encryptedToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.GetTokenSecretString">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.ProtectAndEncodeTokenStringString">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.ProtectAndEncodeToken(String token, String tokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.ReplaceRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.StoreRequestTokenStringString">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.StoreRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.AllInstances.ContextGet">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.get_Context()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.AllInstances.GetTokenSecretString">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.AllInstances.ReplaceRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimAuthenticationOnlyCookieOAuthTokenManager.AllInstances.StoreRequestTokenStringString">
+            <summary>Sets the shim of AuthenticationOnlyCookieOAuthTokenManager.StoreRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.CookieOAuthTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.#ctor(DotNetOpenAuth.AspNet.Clients.CookieOAuthTokenManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.Bind(DotNetOpenAuth.AspNet.Clients.IOAuthTokenManager)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.Constructor">
+            <summary>Sets the shim of CookieOAuthTokenManager.CookieOAuthTokenManager()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.ConstructorHttpContextBase">
+            <summary>Sets the shim of CookieOAuthTokenManager.CookieOAuthTokenManager(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.GetTokenSecretString">
+            <summary>Sets the shim of CookieOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.ReplaceRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the shim of CookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.AllInstances.GetTokenSecretString">
+            <summary>Sets the shim of CookieOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimCookieOAuthTokenManager.AllInstances.ReplaceRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the shim of CookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.DotNetOpenAuthWebConsumer</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.#ctor(DotNetOpenAuth.AspNet.Clients.DotNetOpenAuthWebConsumer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.Bind(DotNetOpenAuth.AspNet.Clients.IOAuthWebWorker)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.ConstructorServiceProviderDescriptionIConsumerTokenManager">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.DotNetOpenAuthWebConsumer(ServiceProviderDescription serviceDescription, IConsumerTokenManager tokenManager)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.Dispose">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.Dispose()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.DisposeBoolean">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.PrepareAuthorizedRequestMessageReceivingEndpointString">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.PrepareAuthorizedRequest(MessageReceivingEndpoint profileEndpoint, String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.ProcessUserAuthorization">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.ProcessUserAuthorization()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.RequestAuthenticationUri">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.RequestAuthentication(Uri callback)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.AllInstances.Dispose">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.Dispose()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.AllInstances.PrepareAuthorizedRequestMessageReceivingEndpointString">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.PrepareAuthorizedRequest(MessageReceivingEndpoint profileEndpoint, String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.AllInstances.ProcessUserAuthorization">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.ProcessUserAuthorization()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimDotNetOpenAuthWebConsumer.AllInstances.RequestAuthenticationUri">
+            <summary>Sets the shim of DotNetOpenAuthWebConsumer.RequestAuthentication(Uri callback)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.FacebookClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.#ctor(DotNetOpenAuth.AspNet.Clients.FacebookClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.Bind(DotNetOpenAuth.AspNet.IAuthenticationClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.ConstructorStringString">
+            <summary>Sets the shim of FacebookClient.FacebookClient(String appId, String appSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.GetServiceLoginUrlUri">
+            <summary>Sets the shim of FacebookClient.GetServiceLoginUrl(Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.GetUserDataString">
+            <summary>Sets the shim of FacebookClient.GetUserData(String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.NormalizeHexEncodingString">
+            <summary>Sets the shim of FacebookClient.NormalizeHexEncoding(String url)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.QueryAccessTokenUriString">
+            <summary>Sets the shim of FacebookClient.QueryAccessToken(Uri returnUrl, String authorizationCode)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.AllInstances.GetServiceLoginUrlUri">
+            <summary>Sets the shim of FacebookClient.GetServiceLoginUrl(Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.AllInstances.GetUserDataString">
+            <summary>Sets the shim of FacebookClient.GetUserData(String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookClient.AllInstances.QueryAccessTokenUriString">
+            <summary>Sets the shim of FacebookClient.QueryAccessToken(Uri returnUrl, String authorizationCode)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.FacebookGraphData</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.#ctor(DotNetOpenAuth.AspNet.Clients.FacebookGraphData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.BirthdayGet">
+            <summary>Sets the shim of FacebookGraphData.get_Birthday()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.BirthdaySetString">
+            <summary>Sets the shim of FacebookGraphData.set_Birthday(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.Constructor">
+            <summary>Sets the shim of FacebookGraphData.FacebookGraphData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.EmailGet">
+            <summary>Sets the shim of FacebookGraphData.get_Email()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.EmailSetString">
+            <summary>Sets the shim of FacebookGraphData.set_Email(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.GenderGet">
+            <summary>Sets the shim of FacebookGraphData.get_Gender()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.GenderSetString">
+            <summary>Sets the shim of FacebookGraphData.set_Gender(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.IdGet">
+            <summary>Sets the shim of FacebookGraphData.get_Id()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.IdSetString">
+            <summary>Sets the shim of FacebookGraphData.set_Id(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.LinkGet">
+            <summary>Sets the shim of FacebookGraphData.get_Link()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.LinkSetUri">
+            <summary>Sets the shim of FacebookGraphData.set_Link(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.NameGet">
+            <summary>Sets the shim of FacebookGraphData.get_Name()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.NameSetString">
+            <summary>Sets the shim of FacebookGraphData.set_Name(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.BirthdayGet">
+            <summary>Sets the shim of FacebookGraphData.get_Birthday()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.BirthdaySetString">
+            <summary>Sets the shim of FacebookGraphData.set_Birthday(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.EmailGet">
+            <summary>Sets the shim of FacebookGraphData.get_Email()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.EmailSetString">
+            <summary>Sets the shim of FacebookGraphData.set_Email(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.GenderGet">
+            <summary>Sets the shim of FacebookGraphData.get_Gender()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.GenderSetString">
+            <summary>Sets the shim of FacebookGraphData.set_Gender(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.IdGet">
+            <summary>Sets the shim of FacebookGraphData.get_Id()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.IdSetString">
+            <summary>Sets the shim of FacebookGraphData.set_Id(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.LinkGet">
+            <summary>Sets the shim of FacebookGraphData.get_Link()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.LinkSetUri">
+            <summary>Sets the shim of FacebookGraphData.set_Link(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.NameGet">
+            <summary>Sets the shim of FacebookGraphData.get_Name()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimFacebookGraphData.AllInstances.NameSetString">
+            <summary>Sets the shim of FacebookGraphData.set_Name(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.GoogleOpenIdClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.#ctor(DotNetOpenAuth.AspNet.Clients.GoogleOpenIdClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.Bind(DotNetOpenAuth.AspNet.IAuthenticationClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.Constructor">
+            <summary>Sets the shim of GoogleOpenIdClient.GoogleOpenIdClient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.GetExtraDataIAuthenticationResponse">
+            <summary>Sets the shim of GoogleOpenIdClient.GetExtraData(IAuthenticationResponse response)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.OnBeforeSendingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of GoogleOpenIdClient.OnBeforeSendingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.AllInstances.GetExtraDataIAuthenticationResponse">
+            <summary>Sets the shim of GoogleOpenIdClient.GetExtraData(IAuthenticationResponse response)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimGoogleOpenIdClient.AllInstances.OnBeforeSendingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of GoogleOpenIdClient.OnBeforeSendingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.InMemoryOAuthTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.#ctor(DotNetOpenAuth.AspNet.Clients.InMemoryOAuthTokenManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.Bind(DotNetOpenAuth.OAuth.ChannelElements.ITokenManager)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.Bind(DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.ConstructorStringString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.InMemoryOAuthTokenManager(String consumerKey, String consumerSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.ConsumerKeyGet">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.ConsumerKeySetString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.set_ConsumerKey(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.ConsumerSecretGet">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.get_ConsumerSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.ConsumerSecretSetString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.set_ConsumerSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.ExpireRequestTokenAndStoreNewAccessTokenStringStringStringString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.ExpireRequestTokenAndStoreNewAccessToken(String consumerKey, String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.GetTokenSecretString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.GetTokenTypeString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.GetTokenType(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.StoreNewRequestTokenUnauthorizedTokenRequestITokenSecretContainingMessage">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.StoreNewRequestToken(UnauthorizedTokenRequest request, ITokenSecretContainingMessage response)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.AllInstances.ConsumerKeyGet">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.AllInstances.ConsumerKeySetString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.set_ConsumerKey(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.AllInstances.ConsumerSecretGet">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.get_ConsumerSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.AllInstances.ConsumerSecretSetString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.set_ConsumerSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.AllInstances.ExpireRequestTokenAndStoreNewAccessTokenStringStringStringString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.ExpireRequestTokenAndStoreNewAccessToken(String consumerKey, String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.AllInstances.GetTokenSecretString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.AllInstances.GetTokenTypeString">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.GetTokenType(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimInMemoryOAuthTokenManager.AllInstances.StoreNewRequestTokenUnauthorizedTokenRequestITokenSecretContainingMessage">
+            <summary>Sets the shim of InMemoryOAuthTokenManager.StoreNewRequestToken(UnauthorizedTokenRequest request, ITokenSecretContainingMessage response)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.LinkedInClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.#ctor(DotNetOpenAuth.AspNet.Clients.LinkedInClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.Bind(DotNetOpenAuth.AspNet.IAuthenticationClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.ConstructorStringString">
+            <summary>Sets the shim of LinkedInClient.LinkedInClient(String consumerKey, String consumerSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.ConstructorStringStringIOAuthTokenManager">
+            <summary>Sets the shim of LinkedInClient.LinkedInClient(String consumerKey, String consumerSecret, IOAuthTokenManager tokenManager)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.StaticConstructor">
+            <summary>Sets the shim of LinkedInClient.LinkedInClient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.VerifyAuthenticationCoreAuthorizedTokenResponse">
+            <summary>Sets the shim of LinkedInClient.VerifyAuthenticationCore(AuthorizedTokenResponse response)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimLinkedInClient.AllInstances.VerifyAuthenticationCoreAuthorizedTokenResponse">
+            <summary>Sets the shim of LinkedInClient.VerifyAuthenticationCore(AuthorizedTokenResponse response)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.MicrosoftClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.#ctor(DotNetOpenAuth.AspNet.Clients.MicrosoftClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.Bind(DotNetOpenAuth.AspNet.IAuthenticationClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.AppIdGet">
+            <summary>Sets the shim of MicrosoftClient.get_AppId()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.ConstructorStringString">
+            <summary>Sets the shim of MicrosoftClient.MicrosoftClient(String appId, String appSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.ConstructorStringStringString">
+            <summary>Sets the shim of MicrosoftClient.MicrosoftClient(String providerName, String appId, String appSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.GetServiceLoginUrlUri">
+            <summary>Sets the shim of MicrosoftClient.GetServiceLoginUrl(Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.GetUserDataString">
+            <summary>Sets the shim of MicrosoftClient.GetUserData(String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.QueryAccessTokenUriString">
+            <summary>Sets the shim of MicrosoftClient.QueryAccessToken(Uri returnUrl, String authorizationCode)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.AllInstances.AppIdGet">
+            <summary>Sets the shim of MicrosoftClient.get_AppId()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.AllInstances.GetServiceLoginUrlUri">
+            <summary>Sets the shim of MicrosoftClient.GetServiceLoginUrl(Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.AllInstances.GetUserDataString">
+            <summary>Sets the shim of MicrosoftClient.GetUserData(String accessToken)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClient.AllInstances.QueryAccessTokenUriString">
+            <summary>Sets the shim of MicrosoftClient.QueryAccessToken(Uri returnUrl, String authorizationCode)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.MicrosoftClientUserData</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.#ctor(DotNetOpenAuth.AspNet.Clients.MicrosoftClientUserData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.Constructor">
+            <summary>Sets the shim of MicrosoftClientUserData.MicrosoftClientUserData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.FirstNameGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_FirstName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.FirstNameSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.GenderGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_Gender()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.GenderSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_Gender(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.IdGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_Id()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.IdSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_Id(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.LastNameGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_LastName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.LastNameSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_LastName(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.LinkGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_Link()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.LinkSetUri">
+            <summary>Sets the shim of MicrosoftClientUserData.set_Link(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.NameGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_Name()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.NameSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_Name(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.FirstNameGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_FirstName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.FirstNameSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.GenderGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_Gender()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.GenderSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_Gender(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.IdGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_Id()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.IdSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_Id(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.LastNameGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_LastName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.LastNameSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_LastName(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.LinkGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_Link()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.LinkSetUri">
+            <summary>Sets the shim of MicrosoftClientUserData.set_Link(Uri value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.NameGet">
+            <summary>Sets the shim of MicrosoftClientUserData.get_Name()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimMicrosoftClientUserData.AllInstances.NameSetString">
+            <summary>Sets the shim of MicrosoftClientUserData.set_Name(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.OAuth2AccessTokenData</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.#ctor(DotNetOpenAuth.AspNet.Clients.OAuth2AccessTokenData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AccessTokenGet">
+            <summary>Sets the shim of OAuth2AccessTokenData.get_AccessToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AccessTokenSetString">
+            <summary>Sets the shim of OAuth2AccessTokenData.set_AccessToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.Constructor">
+            <summary>Sets the shim of OAuth2AccessTokenData.OAuth2AccessTokenData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.RefreshTokenGet">
+            <summary>Sets the shim of OAuth2AccessTokenData.get_RefreshToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.RefreshTokenSetString">
+            <summary>Sets the shim of OAuth2AccessTokenData.set_RefreshToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.ScopeGet">
+            <summary>Sets the shim of OAuth2AccessTokenData.get_Scope()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.ScopeSetString">
+            <summary>Sets the shim of OAuth2AccessTokenData.set_Scope(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.TokenTypeGet">
+            <summary>Sets the shim of OAuth2AccessTokenData.get_TokenType()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.TokenTypeSetString">
+            <summary>Sets the shim of OAuth2AccessTokenData.set_TokenType(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AllInstances.AccessTokenGet">
+            <summary>Sets the shim of OAuth2AccessTokenData.get_AccessToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AllInstances.AccessTokenSetString">
+            <summary>Sets the shim of OAuth2AccessTokenData.set_AccessToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AllInstances.RefreshTokenGet">
+            <summary>Sets the shim of OAuth2AccessTokenData.get_RefreshToken()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AllInstances.RefreshTokenSetString">
+            <summary>Sets the shim of OAuth2AccessTokenData.set_RefreshToken(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AllInstances.ScopeGet">
+            <summary>Sets the shim of OAuth2AccessTokenData.get_Scope()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AllInstances.ScopeSetString">
+            <summary>Sets the shim of OAuth2AccessTokenData.set_Scope(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AllInstances.TokenTypeGet">
+            <summary>Sets the shim of OAuth2AccessTokenData.get_TokenType()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2AccessTokenData.AllInstances.TokenTypeSetString">
+            <summary>Sets the shim of OAuth2AccessTokenData.set_TokenType(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.OAuth2Client</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.#ctor(DotNetOpenAuth.AspNet.Clients.OAuth2Client)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.Bind(DotNetOpenAuth.AspNet.IAuthenticationClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.ConstructorString">
+            <summary>Sets the shim of OAuth2Client.OAuth2Client(String providerName)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.ProviderNameGet">
+            <summary>Sets the shim of OAuth2Client.get_ProviderName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the shim of OAuth2Client.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the shim of OAuth2Client.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.VerifyAuthenticationHttpContextBaseUri">
+            <summary>Sets the shim of OAuth2Client.VerifyAuthentication(HttpContextBase context, Uri returnPageUrl)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.AllInstances.ProviderNameGet">
+            <summary>Sets the shim of OAuth2Client.get_ProviderName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.AllInstances.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the shim of OAuth2Client.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.AllInstances.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the shim of OAuth2Client.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuth2Client.AllInstances.VerifyAuthenticationHttpContextBaseUri">
+            <summary>Sets the shim of OAuth2Client.VerifyAuthentication(HttpContextBase context, Uri returnPageUrl)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.OAuthClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.#ctor(DotNetOpenAuth.AspNet.Clients.OAuthClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.Bind(DotNetOpenAuth.AspNet.IAuthenticationClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.ConstructorStringIOAuthWebWorker">
+            <summary>Sets the shim of OAuthClient.OAuthClient(String providerName, IOAuthWebWorker webWorker)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.ConstructorStringServiceProviderDescriptionIConsumerTokenManager">
+            <summary>Sets the shim of OAuthClient.OAuthClient(String providerName, ServiceProviderDescription serviceDescription, IConsumerTokenManager tokenManager)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.ConstructorStringServiceProviderDescriptionStringString">
+            <summary>Sets the shim of OAuthClient.OAuthClient(String providerName, ServiceProviderDescription serviceDescription, String consumerKey, String consumerSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.LoadXDocumentFromStreamStream">
+            <summary>Sets the shim of OAuthClient.LoadXDocumentFromStream(Stream stream)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.ProviderNameGet">
+            <summary>Sets the shim of OAuthClient.get_ProviderName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.ProviderNameSetString">
+            <summary>Sets the shim of OAuthClient.set_ProviderName(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the shim of OAuthClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the shim of OAuthClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.WebWorkerGet">
+            <summary>Sets the shim of OAuthClient.get_WebWorker()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.WebWorkerSetIOAuthWebWorker">
+            <summary>Sets the shim of OAuthClient.set_WebWorker(IOAuthWebWorker value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.AllInstances.ProviderNameGet">
+            <summary>Sets the shim of OAuthClient.get_ProviderName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.AllInstances.ProviderNameSetString">
+            <summary>Sets the shim of OAuthClient.set_ProviderName(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.AllInstances.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the shim of OAuthClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.AllInstances.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the shim of OAuthClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.AllInstances.WebWorkerGet">
+            <summary>Sets the shim of OAuthClient.get_WebWorker()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOAuthClient.AllInstances.WebWorkerSetIOAuthWebWorker">
+            <summary>Sets the shim of OAuthClient.set_WebWorker(IOAuthWebWorker value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.OpenIdClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.#ctor(DotNetOpenAuth.AspNet.Clients.OpenIdClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.Bind(DotNetOpenAuth.AspNet.IAuthenticationClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.ConstructorStringIdentifier">
+            <summary>Sets the shim of OpenIdClient.OpenIdClient(String providerName, Identifier providerIdentifier)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.GetExtraDataIAuthenticationResponse">
+            <summary>Sets the shim of OpenIdClient.GetExtraData(IAuthenticationResponse response)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.OnBeforeSendingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of OpenIdClient.OnBeforeSendingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.ProviderNameGet">
+            <summary>Sets the shim of OpenIdClient.get_ProviderName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the shim of OpenIdClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.StaticConstructor">
+            <summary>Sets the shim of OpenIdClient.OpenIdClient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the shim of OpenIdClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.AllInstances.GetExtraDataIAuthenticationResponse">
+            <summary>Sets the shim of OpenIdClient.GetExtraData(IAuthenticationResponse response)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.AllInstances.OnBeforeSendingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of OpenIdClient.OnBeforeSendingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.AllInstances.ProviderNameGet">
+            <summary>Sets the shim of OpenIdClient.get_ProviderName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.AllInstances.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the shim of OpenIdClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimOpenIdClient.AllInstances.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the shim of OpenIdClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.SimpleConsumerTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.#ctor(DotNetOpenAuth.AspNet.Clients.SimpleConsumerTokenManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.Bind(DotNetOpenAuth.OAuth.ChannelElements.ITokenManager)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.Bind(DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.ConstructorStringStringIOAuthTokenManager">
+            <summary>Sets the shim of SimpleConsumerTokenManager.SimpleConsumerTokenManager(String consumerKey, String consumerSecret, IOAuthTokenManager tokenManager)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.ConsumerKeyGet">
+            <summary>Sets the shim of SimpleConsumerTokenManager.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.ConsumerKeySetString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.set_ConsumerKey(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.ConsumerSecretGet">
+            <summary>Sets the shim of SimpleConsumerTokenManager.get_ConsumerSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.ConsumerSecretSetString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.set_ConsumerSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.ExpireRequestTokenAndStoreNewAccessTokenStringStringStringString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.ExpireRequestTokenAndStoreNewAccessToken(String consumerKey, String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.GetTokenSecretString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.GetTokenTypeString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.GetTokenType(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.StoreNewRequestTokenUnauthorizedTokenRequestITokenSecretContainingMessage">
+            <summary>Sets the shim of SimpleConsumerTokenManager.StoreNewRequestToken(UnauthorizedTokenRequest request, ITokenSecretContainingMessage response)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.AllInstances.ConsumerKeyGet">
+            <summary>Sets the shim of SimpleConsumerTokenManager.get_ConsumerKey()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.AllInstances.ConsumerKeySetString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.set_ConsumerKey(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.AllInstances.ConsumerSecretGet">
+            <summary>Sets the shim of SimpleConsumerTokenManager.get_ConsumerSecret()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.AllInstances.ConsumerSecretSetString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.set_ConsumerSecret(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.AllInstances.ExpireRequestTokenAndStoreNewAccessTokenStringStringStringString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.ExpireRequestTokenAndStoreNewAccessToken(String consumerKey, String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.AllInstances.GetTokenSecretString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.AllInstances.GetTokenTypeString">
+            <summary>Sets the shim of SimpleConsumerTokenManager.GetTokenType(String token)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimSimpleConsumerTokenManager.AllInstances.StoreNewRequestTokenUnauthorizedTokenRequestITokenSecretContainingMessage">
+            <summary>Sets the shim of SimpleConsumerTokenManager.StoreNewRequestToken(UnauthorizedTokenRequest request, ITokenSecretContainingMessage response)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.TwitterClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.#ctor(DotNetOpenAuth.AspNet.Clients.TwitterClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.Bind(DotNetOpenAuth.AspNet.IAuthenticationClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.ConstructorStringString">
+            <summary>Sets the shim of TwitterClient.TwitterClient(String consumerKey, String consumerSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.ConstructorStringStringIOAuthTokenManager">
+            <summary>Sets the shim of TwitterClient.TwitterClient(String consumerKey, String consumerSecret, IOAuthTokenManager tokenManager)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.StaticConstructor">
+            <summary>Sets the shim of TwitterClient.TwitterClient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.VerifyAuthenticationCoreAuthorizedTokenResponse">
+            <summary>Sets the shim of TwitterClient.VerifyAuthenticationCore(AuthorizedTokenResponse response)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimTwitterClient.AllInstances.VerifyAuthenticationCoreAuthorizedTokenResponse">
+            <summary>Sets the shim of TwitterClient.VerifyAuthenticationCore(AuthorizedTokenResponse response)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient">
+            <summary>Shim type of DotNetOpenAuth.AspNet.Clients.YahooOpenIdClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.#ctor(DotNetOpenAuth.AspNet.Clients.YahooOpenIdClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.Bind(DotNetOpenAuth.AspNet.IAuthenticationClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.Constructor">
+            <summary>Sets the shim of YahooOpenIdClient.YahooOpenIdClient()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.GetExtraDataIAuthenticationResponse">
+            <summary>Sets the shim of YahooOpenIdClient.GetExtraData(IAuthenticationResponse response)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.OnBeforeSendingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of YahooOpenIdClient.OnBeforeSendingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.AllInstances.GetExtraDataIAuthenticationResponse">
+            <summary>Sets the shim of YahooOpenIdClient.GetExtraData(IAuthenticationResponse response)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.ShimYahooOpenIdClient.AllInstances.OnBeforeSendingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the shim of YahooOpenIdClient.OnBeforeSendingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.AuthenticationOnlyCookieOAuthTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.#ctor(System.Web.HttpContextBase)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.GetTokenSecret(System.String)">
+            <summary>Sets the stub of AuthenticationOnlyCookieOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.GetTokenSecretString">
+            <summary>Sets the stub of AuthenticationOnlyCookieOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthenticationOnlyCookieOAuthTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(System.String,System.String,System.String)">
+            <summary>Sets the stub of AuthenticationOnlyCookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.ReplaceRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the stub of AuthenticationOnlyCookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.StoreRequestToken(System.String,System.String)">
+            <summary>Sets the stub of AuthenticationOnlyCookieOAuthTokenManager.StoreRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.StoreRequestTokenStringString">
+            <summary>Sets the stub of AuthenticationOnlyCookieOAuthTokenManager.StoreRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubAuthenticationOnlyCookieOAuthTokenManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.CookieOAuthTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.#ctor(System.Web.HttpContextBase)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.GetTokenSecret(System.String)">
+            <summary>Sets the stub of CookieOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.GetTokenSecretString">
+            <summary>Sets the stub of CookieOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.InitializeStub">
+            <summary>Initializes a new instance of type StubCookieOAuthTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(System.String,System.String,System.String)">
+            <summary>Sets the stub of CookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.ReplaceRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the stub of CookieOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.StoreRequestToken(System.String,System.String)">
+            <summary>Sets the stub of AuthenticationOnlyCookieOAuthTokenManager.StoreRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.StoreRequestTokenStringString">
+            <summary>Sets the stub of AuthenticationOnlyCookieOAuthTokenManager.StoreRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubCookieOAuthTokenManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubDotNetOpenAuthWebConsumer">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.DotNetOpenAuthWebConsumer</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubDotNetOpenAuthWebConsumer.#ctor(DotNetOpenAuth.OAuth.ServiceProviderDescription,DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubDotNetOpenAuthWebConsumer.Dispose(System.Boolean)">
+            <summary>Sets the stub of DotNetOpenAuthWebConsumer.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubDotNetOpenAuthWebConsumer.DisposeBoolean">
+            <summary>Sets the stub of DotNetOpenAuthWebConsumer.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubDotNetOpenAuthWebConsumer.InitializeStub">
+            <summary>Initializes a new instance of type StubDotNetOpenAuthWebConsumer</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubDotNetOpenAuthWebConsumer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubDotNetOpenAuthWebConsumer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubDotNetOpenAuthWebConsumer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubFacebookGraphData">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.FacebookGraphData</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubFacebookGraphData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubFacebookGraphData.InitializeStub">
+            <summary>Initializes a new instance of type StubFacebookGraphData</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubFacebookGraphData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubFacebookGraphData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubFacebookGraphData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthTokenManager">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.IOAuthTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthTokenManager.#ctor">
+            <summary>Initializes a new instance of type StubIOAuthTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthTokenManager.dnoaan::DotNetOpenAuth#AspNet#Clients#IOAuthTokenManager#GetTokenSecret(System.String)">
+            <summary>Sets the stub of IOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthTokenManager.dnoaan::DotNetOpenAuth#AspNet#Clients#IOAuthTokenManager#ReplaceRequestTokenWithAccessToken(System.String,System.String,System.String)">
+            <summary>Sets the stub of IOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthTokenManager.dnoaan::DotNetOpenAuth#AspNet#Clients#IOAuthTokenManager#StoreRequestToken(System.String,System.String)">
+            <summary>Sets the stub of IOAuthTokenManager.StoreRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthTokenManager.GetTokenSecretString">
+            <summary>Sets the stub of IOAuthTokenManager.GetTokenSecret(String token)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthTokenManager.ReplaceRequestTokenWithAccessTokenStringStringString">
+            <summary>Sets the stub of IOAuthTokenManager.ReplaceRequestTokenWithAccessToken(String requestToken, String accessToken, String accessTokenSecret)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthTokenManager.StoreRequestTokenStringString">
+            <summary>Sets the stub of IOAuthTokenManager.StoreRequestToken(String requestToken, String requestTokenSecret)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthWebWorker">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.IOAuthWebWorker</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthWebWorker.#ctor">
+            <summary>Initializes a new instance of type StubIOAuthWebWorker</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthWebWorker.dnoaan::DotNetOpenAuth#AspNet#Clients#IOAuthWebWorker#PrepareAuthorizedRequest(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.String)">
+            <summary>Sets the stub of IOAuthWebWorker.PrepareAuthorizedRequest(MessageReceivingEndpoint profileEndpoint, String accessToken)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthWebWorker.dnoaan::DotNetOpenAuth#AspNet#Clients#IOAuthWebWorker#ProcessUserAuthorization">
+            <summary>Sets the stub of IOAuthWebWorker.ProcessUserAuthorization()</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthWebWorker.dnoaan::DotNetOpenAuth#AspNet#Clients#IOAuthWebWorker#RequestAuthentication(System.Uri)">
+            <summary>Sets the stub of IOAuthWebWorker.RequestAuthentication(Uri callback)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthWebWorker.PrepareAuthorizedRequestMessageReceivingEndpointString">
+            <summary>Sets the stub of IOAuthWebWorker.PrepareAuthorizedRequest(MessageReceivingEndpoint profileEndpoint, String accessToken)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthWebWorker.ProcessUserAuthorization">
+            <summary>Sets the stub of IOAuthWebWorker.ProcessUserAuthorization()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubIOAuthWebWorker.RequestAuthenticationUri">
+            <summary>Sets the stub of IOAuthWebWorker.RequestAuthentication(Uri callback)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.MicrosoftClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.#ctor(System.String,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.GetServiceLoginUrl(System.Uri)">
+            <summary>Sets the stub of MicrosoftClient.GetServiceLoginUrl(Uri returnUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.GetServiceLoginUrlUri">
+            <summary>Sets the stub of MicrosoftClient.GetServiceLoginUrl(Uri returnUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.GetUserData(System.String)">
+            <summary>Sets the stub of MicrosoftClient.GetUserData(String accessToken)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.GetUserDataString">
+            <summary>Sets the stub of MicrosoftClient.GetUserData(String accessToken)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.InitializeStub">
+            <summary>Initializes a new instance of type StubMicrosoftClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.QueryAccessToken(System.Uri,System.String)">
+            <summary>Sets the stub of MicrosoftClient.QueryAccessToken(Uri returnUrl, String authorizationCode)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.QueryAccessTokenUriString">
+            <summary>Sets the stub of MicrosoftClient.QueryAccessToken(Uri returnUrl, String authorizationCode)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.RequestAuthentication(System.Web.HttpContextBase,System.Uri)">
+            <summary>Sets the stub of OAuth2Client.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the stub of OAuth2Client.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.VerifyAuthentication(System.Web.HttpContextBase,System.Uri)">
+            <summary>Sets the stub of OAuth2Client.VerifyAuthentication(HttpContextBase context, Uri returnPageUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.VerifyAuthenticationHttpContextBaseUri">
+            <summary>Sets the stub of OAuth2Client.VerifyAuthentication(HttpContextBase context, Uri returnPageUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClientUserData">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.MicrosoftClientUserData</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClientUserData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClientUserData.InitializeStub">
+            <summary>Initializes a new instance of type StubMicrosoftClientUserData</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClientUserData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClientUserData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubMicrosoftClientUserData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2AccessTokenData">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.OAuth2AccessTokenData</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2AccessTokenData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2AccessTokenData.InitializeStub">
+            <summary>Initializes a new instance of type StubOAuth2AccessTokenData</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2AccessTokenData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2AccessTokenData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2AccessTokenData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.OAuth2Client</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.GetServiceLoginUrl(System.Uri)">
+            <summary>Sets the stub of OAuth2Client.GetServiceLoginUrl(Uri returnUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.GetServiceLoginUrlUri">
+            <summary>Sets the stub of OAuth2Client.GetServiceLoginUrl(Uri returnUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.GetUserData(System.String)">
+            <summary>Sets the stub of OAuth2Client.GetUserData(String accessToken)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.GetUserDataString">
+            <summary>Sets the stub of OAuth2Client.GetUserData(String accessToken)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.InitializeStub">
+            <summary>Initializes a new instance of type StubOAuth2Client</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.QueryAccessToken(System.Uri,System.String)">
+            <summary>Sets the stub of OAuth2Client.QueryAccessToken(Uri returnUrl, String authorizationCode)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.QueryAccessTokenUriString">
+            <summary>Sets the stub of OAuth2Client.QueryAccessToken(Uri returnUrl, String authorizationCode)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.RequestAuthentication(System.Web.HttpContextBase,System.Uri)">
+            <summary>Sets the stub of OAuth2Client.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the stub of OAuth2Client.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.VerifyAuthentication(System.Web.HttpContextBase,System.Uri)">
+            <summary>Sets the stub of OAuth2Client.VerifyAuthentication(HttpContextBase context, Uri returnPageUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.VerifyAuthenticationHttpContextBaseUri">
+            <summary>Sets the stub of OAuth2Client.VerifyAuthentication(HttpContextBase context, Uri returnPageUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuth2Client.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.OAuthClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.#ctor(System.String,DotNetOpenAuth.AspNet.Clients.IOAuthWebWorker)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.#ctor(System.String,DotNetOpenAuth.OAuth.ServiceProviderDescription,DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.#ctor(System.String,DotNetOpenAuth.OAuth.ServiceProviderDescription,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.InitializeStub">
+            <summary>Initializes a new instance of type StubOAuthClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.RequestAuthentication(System.Web.HttpContextBase,System.Uri)">
+            <summary>Sets the stub of OAuthClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the stub of OAuthClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.VerifyAuthentication(System.Web.HttpContextBase)">
+            <summary>Sets the stub of OAuthClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.VerifyAuthenticationCore(DotNetOpenAuth.OAuth.Messages.AuthorizedTokenResponse)">
+            <summary>Sets the stub of OAuthClient.VerifyAuthenticationCore(AuthorizedTokenResponse response)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.VerifyAuthenticationCoreAuthorizedTokenResponse">
+            <summary>Sets the stub of OAuthClient.VerifyAuthenticationCore(AuthorizedTokenResponse response)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the stub of OAuthClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOAuthClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.OpenIdClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.#ctor(System.String,DotNetOpenAuth.OpenId.Identifier)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.GetExtraData(DotNetOpenAuth.OpenId.RelyingParty.IAuthenticationResponse)">
+            <summary>Sets the stub of OpenIdClient.GetExtraData(IAuthenticationResponse response)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.GetExtraDataIAuthenticationResponse">
+            <summary>Sets the stub of OpenIdClient.GetExtraData(IAuthenticationResponse response)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.InitializeStub">
+            <summary>Initializes a new instance of type StubOpenIdClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.OnBeforeSendingAuthenticationRequest(DotNetOpenAuth.OpenId.RelyingParty.IAuthenticationRequest)">
+            <summary>Sets the stub of OpenIdClient.OnBeforeSendingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.OnBeforeSendingAuthenticationRequestIAuthenticationRequest">
+            <summary>Sets the stub of OpenIdClient.OnBeforeSendingAuthenticationRequest(IAuthenticationRequest request)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.RequestAuthentication(System.Web.HttpContextBase,System.Uri)">
+            <summary>Sets the stub of OpenIdClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the stub of OpenIdClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.VerifyAuthentication(System.Web.HttpContextBase)">
+            <summary>Sets the stub of OpenIdClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the stub of OpenIdClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubOpenIdClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubSimpleConsumerTokenManager">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.SimpleConsumerTokenManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubSimpleConsumerTokenManager.#ctor(System.String,System.String,DotNetOpenAuth.AspNet.Clients.IOAuthTokenManager)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubSimpleConsumerTokenManager.InitializeStub">
+            <summary>Initializes a new instance of type StubSimpleConsumerTokenManager</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubSimpleConsumerTokenManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubSimpleConsumerTokenManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubSimpleConsumerTokenManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient">
+            <summary>Stub type of DotNetOpenAuth.AspNet.Clients.TwitterClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.#ctor(System.String,System.String,DotNetOpenAuth.AspNet.Clients.IOAuthTokenManager)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.InitializeStub">
+            <summary>Initializes a new instance of type StubTwitterClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.RequestAuthentication(System.Web.HttpContextBase,System.Uri)">
+            <summary>Sets the stub of OAuthClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the stub of OAuthClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.VerifyAuthentication(System.Web.HttpContextBase)">
+            <summary>Sets the stub of OAuthClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.VerifyAuthenticationCore(DotNetOpenAuth.OAuth.Messages.AuthorizedTokenResponse)">
+            <summary>Sets the stub of TwitterClient.VerifyAuthenticationCore(AuthorizedTokenResponse response)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.VerifyAuthenticationCoreAuthorizedTokenResponse">
+            <summary>Sets the stub of TwitterClient.VerifyAuthenticationCore(AuthorizedTokenResponse response)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the stub of OAuthClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Clients.Fakes.StubTwitterClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult">
+            <summary>Shim type of DotNetOpenAuth.AspNet.AuthenticationResult</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.#ctor(DotNetOpenAuth.AspNet.AuthenticationResult)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ConstructorBoolean">
+            <summary>Sets the shim of AuthenticationResult.AuthenticationResult(Boolean isSuccessful)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ConstructorBooleanStringStringStringIDictionaryOfStringString">
+            <summary>Sets the shim of AuthenticationResult.AuthenticationResult(Boolean isSuccessful, String provider, String providerUserId, String userName, IDictionary`2&lt;String,String&gt; extraData)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ConstructorException">
+            <summary>Sets the shim of AuthenticationResult.AuthenticationResult(Exception exception)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ConstructorExceptionString">
+            <summary>Sets the shim of AuthenticationResult.AuthenticationResult(Exception exception, String provider)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ErrorGet">
+            <summary>Sets the shim of AuthenticationResult.get_Error()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ErrorSetException">
+            <summary>Sets the shim of AuthenticationResult.set_Error(Exception value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ExtraDataGet">
+            <summary>Sets the shim of AuthenticationResult.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ExtraDataSetIDictionaryOfStringString">
+            <summary>Sets the shim of AuthenticationResult.set_ExtraData(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.IsSuccessfulGet">
+            <summary>Sets the shim of AuthenticationResult.get_IsSuccessful()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.IsSuccessfulSetBoolean">
+            <summary>Sets the shim of AuthenticationResult.set_IsSuccessful(Boolean value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ProviderGet">
+            <summary>Sets the shim of AuthenticationResult.get_Provider()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ProviderSetString">
+            <summary>Sets the shim of AuthenticationResult.set_Provider(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ProviderUserIdGet">
+            <summary>Sets the shim of AuthenticationResult.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.ProviderUserIdSetString">
+            <summary>Sets the shim of AuthenticationResult.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.StaticConstructor">
+            <summary>Sets the shim of AuthenticationResult.AuthenticationResult()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.UserNameGet">
+            <summary>Sets the shim of AuthenticationResult.get_UserName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.UserNameSetString">
+            <summary>Sets the shim of AuthenticationResult.set_UserName(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.ErrorGet">
+            <summary>Sets the shim of AuthenticationResult.get_Error()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.ErrorSetException">
+            <summary>Sets the shim of AuthenticationResult.set_Error(Exception value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.ExtraDataGet">
+            <summary>Sets the shim of AuthenticationResult.get_ExtraData()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.ExtraDataSetIDictionaryOfStringString">
+            <summary>Sets the shim of AuthenticationResult.set_ExtraData(IDictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.IsSuccessfulGet">
+            <summary>Sets the shim of AuthenticationResult.get_IsSuccessful()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.IsSuccessfulSetBoolean">
+            <summary>Sets the shim of AuthenticationResult.set_IsSuccessful(Boolean value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.ProviderGet">
+            <summary>Sets the shim of AuthenticationResult.get_Provider()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.ProviderSetString">
+            <summary>Sets the shim of AuthenticationResult.set_Provider(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.ProviderUserIdGet">
+            <summary>Sets the shim of AuthenticationResult.get_ProviderUserId()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.ProviderUserIdSetString">
+            <summary>Sets the shim of AuthenticationResult.set_ProviderUserId(String value)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.UserNameGet">
+            <summary>Sets the shim of AuthenticationResult.get_UserName()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimAuthenticationResult.AllInstances.UserNameSetString">
+            <summary>Sets the shim of AuthenticationResult.set_UserName(String value)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager">
+            <summary>Shim type of DotNetOpenAuth.AspNet.OpenAuthSecurityManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.#ctor(DotNetOpenAuth.AspNet.OpenAuthSecurityManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.ConstructorHttpContextBaseIAuthenticationClientIOpenAuthDataProvider">
+            <summary>Sets the shim of OpenAuthSecurityManager.OpenAuthSecurityManager(HttpContextBase requestContext, IAuthenticationClient provider, IOpenAuthDataProvider dataProvider)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.GetProviderNameHttpContextBase">
+            <summary>Sets the shim of OpenAuthSecurityManager.GetProviderName(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.GetUsernameHttpContextBase">
+            <summary>Sets the shim of OpenAuthSecurityManager.GetUsername(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.IsAuthenticatedWithOpenAuthGet">
+            <summary>Sets the shim of OpenAuthSecurityManager.get_IsAuthenticatedWithOpenAuth()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.LoginStringBoolean">
+            <summary>Sets the shim of OpenAuthSecurityManager.Login(String providerUserId, Boolean createPersistentCookie)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.RequestAuthenticationString">
+            <summary>Sets the shim of OpenAuthSecurityManager.RequestAuthentication(String returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.ValidateRequestAgainstXsrfAttackStringOut">
+            <summary>Sets the shim of OpenAuthSecurityManager.ValidateRequestAgainstXsrfAttack(String&amp; sessionId)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.VerifyAuthenticationString">
+            <summary>Sets the shim of OpenAuthSecurityManager.VerifyAuthentication(String returnUrl)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.AllInstances.IsAuthenticatedWithOpenAuthGet">
+            <summary>Sets the shim of OpenAuthSecurityManager.get_IsAuthenticatedWithOpenAuth()</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.AllInstances.LoginStringBoolean">
+            <summary>Sets the shim of OpenAuthSecurityManager.Login(String providerUserId, Boolean createPersistentCookie)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.AllInstances.RequestAuthenticationString">
+            <summary>Sets the shim of OpenAuthSecurityManager.RequestAuthentication(String returnUrl)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.AllInstances.ValidateRequestAgainstXsrfAttackStringOut">
+            <summary>Sets the shim of OpenAuthSecurityManager.ValidateRequestAgainstXsrfAttack(String&amp; sessionId)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.ShimOpenAuthSecurityManager.AllInstances.VerifyAuthenticationString">
+            <summary>Sets the shim of OpenAuthSecurityManager.VerifyAuthentication(String returnUrl)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Fakes.StubAuthenticationResult">
+            <summary>Stub type of DotNetOpenAuth.AspNet.AuthenticationResult</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubAuthenticationResult.#ctor(System.Exception)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubAuthenticationResult.#ctor(System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubAuthenticationResult.#ctor(System.Exception,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubAuthenticationResult.#ctor(System.Boolean,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubAuthenticationResult.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthenticationResult</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.StubAuthenticationResult.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.StubAuthenticationResult.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.StubAuthenticationResult.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Fakes.StubIAuthenticationClient">
+            <summary>Stub type of DotNetOpenAuth.AspNet.IAuthenticationClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubIAuthenticationClient.#ctor">
+            <summary>Initializes a new instance of type StubIAuthenticationClient</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubIAuthenticationClient.dnoaan::DotNetOpenAuth#AspNet#IAuthenticationClient#RequestAuthentication(System.Web.HttpContextBase,System.Uri)">
+            <summary>Sets the stub of IAuthenticationClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubIAuthenticationClient.dnoaan::DotNetOpenAuth#AspNet#IAuthenticationClient#VerifyAuthentication(System.Web.HttpContextBase)">
+            <summary>Sets the stub of IAuthenticationClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Fakes.StubIAuthenticationClient.ProviderNameGet">
+            <summary>Sets the stub of IAuthenticationClient.get_ProviderName()</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Fakes.StubIAuthenticationClient.RequestAuthenticationHttpContextBaseUri">
+            <summary>Sets the stub of IAuthenticationClient.RequestAuthentication(HttpContextBase context, Uri returnUrl)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Fakes.StubIAuthenticationClient.VerifyAuthenticationHttpContextBase">
+            <summary>Sets the stub of IAuthenticationClient.VerifyAuthentication(HttpContextBase context)</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.StubIAuthenticationClient.dnoaan::DotNetOpenAuth#AspNet#IAuthenticationClient#ProviderName">
+            <summary>Sets the stub of IAuthenticationClient.get_ProviderName()</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Fakes.StubIOpenAuthDataProvider">
+            <summary>Stub type of DotNetOpenAuth.AspNet.IOpenAuthDataProvider</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubIOpenAuthDataProvider.#ctor">
+            <summary>Initializes a new instance of type StubIOpenAuthDataProvider</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubIOpenAuthDataProvider.dnoaan::DotNetOpenAuth#AspNet#IOpenAuthDataProvider#GetUserNameFromOpenAuth(System.String,System.String)">
+            <summary>Sets the stub of IOpenAuthDataProvider.GetUserNameFromOpenAuth(String openAuthProvider, String openAuthId)</summary>
+        </member>
+        <member name="F:DotNetOpenAuth.AspNet.Fakes.StubIOpenAuthDataProvider.GetUserNameFromOpenAuthStringString">
+            <summary>Sets the stub of IOpenAuthDataProvider.GetUserNameFromOpenAuth(String openAuthProvider, String openAuthId)</summary>
+        </member>
+        <member name="T:DotNetOpenAuth.AspNet.Fakes.StubOpenAuthSecurityManager">
+            <summary>Stub type of DotNetOpenAuth.AspNet.OpenAuthSecurityManager</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubOpenAuthSecurityManager.#ctor(System.Web.HttpContextBase,DotNetOpenAuth.AspNet.IAuthenticationClient,DotNetOpenAuth.AspNet.IOpenAuthDataProvider)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DotNetOpenAuth.AspNet.Fakes.StubOpenAuthSecurityManager.InitializeStub">
+            <summary>Initializes a new instance of type StubOpenAuthSecurityManager</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.StubOpenAuthSecurityManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.StubOpenAuthSecurityManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DotNetOpenAuth.AspNet.Fakes.StubOpenAuthSecurityManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
